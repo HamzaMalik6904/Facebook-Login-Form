@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(224, 226, 233);
+}
+.login-form {
+    padding: 60px 2rem;
+    margin: 80px 3rem;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.right {
+    height: 60vh;
+    width: 36vw;
+}
+.right h1 {
+    color: rgb(12, 91, 238);
+    font-size: 59px;
+    padding-top: 86px;
+}
+.right p {
+    font-size: 27px;
+}
+.left {
+    height: 54vh;
+    width: 30vw;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    box-shadow: 1px 0px 11px;
+}
+.left .a input,
+.left .b input {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+}
+.left .btn button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(14, 110, 236); 
+    color: white;
+    font-size: 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    border: 1px solid #3578e5;
+}
+.left p {
+    text-align: center;
+    padding-top: 12px;
+    color: rgb(19, 109, 226);
+    font-size: 14px;
+}
+.left .line {
+    border: 1px solid #dadde1;
+    margin: 20px 0;
+}
+.left .c button {
+    padding: 12px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    color: white;
+    font-size: 17px;
+    border-radius: 6px;
+    background-color: rgb(62, 173, 18);
+    border: 1px solid #7dbe00;
+}
